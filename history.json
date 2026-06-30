@@ -1,0 +1,30 @@
+[
+    {
+        "role": "user",
+        "content": "Hello, how are you?"
+    },
+    {
+        "role": "user",
+        "content": "Hello, how are you?"
+    },
+    {
+        "role": "user",
+        "content": "Hello, how are you?"
+    },
+    {
+        "role": "user",
+        "content": "Hello, how are you?"
+    },
+    {
+        "role": "user",
+        "content": "Hello, how are you?"
+    },
+    {
+        "role": "user",
+        "text": "what is lunar eclipse"
+    },
+    {
+        "role": "user",
+        "text": "give me my last command or last conversation"
+    }
+]
