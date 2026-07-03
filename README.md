@@ -1,83 +1,127 @@
-# 🤖 Personal AI Assistant
+# 🤖 Jarvis NextGen – Personal AI Assistant
 
-An AI-powered desktop assistant built with **Python** and **Google Gemini** that enables natural voice conversations, screen understanding, and intelligent task assistance.
+An intelligent desktop AI assistant built with Python that combines **voice interaction, computer vision, desktop automation, memory, and Large Language Models** into a single application.
 
-Designed to demonstrate practical applications of **Generative AI, Speech Recognition, Computer Vision, and Desktop Automation** in a single project.
+Inspired by the concept of **JARVIS**, this project is designed to evolve into a real-world AI desktop assistant capable of understanding user commands, interacting with applications, and performing intelligent reasoning.
 
 ---
 
 ## ✨ Features
 
-- 🎙️ Voice-based interaction
-- 🧠 AI-powered responses using Google Gemini
-- 🔊 Text-to-Speech support
-- 🖥️ Screenshot capture and screen analysis
-- 📂 File understanding and AI assistance
-- ⚡ Fast speech recognition with Faster-Whisper
-- 💬 Context-aware conversations
-- 🔧 Modular and scalable architecture
+* 🎙️ Voice-based interaction (Speech-to-Text & Text-to-Speech)
+* 🧠 LLM-powered conversational AI (Google Gemini)
+* 👁️ Screen understanding and OCR
+* 📸 Screenshot and webcam support
+* 🪟 Desktop & window automation
+* 💻 Application launcher and controller
+* 🗂️ File system operations
+* 🧮 Built-in utility tools
+* 🧠 Conversation history and memory
+* 🌍 Multi-language support (Planned)
+* 🔍 Retrieval-Augmented Generation (RAG) (In Progress)
+* 🤖 Agent-based task planning (Planned)
 
 ---
 
 ## 🛠️ Tech Stack
 
-- Python
-- Google Gemini API
-- Faster-Whisper
-- PyAudio
-- MSS
-- Pillow
-- Playsound
-- Threading
+* **Python 3**
+* Google Gemini API
+* SpeechRecognition
+* Faster-Whisper
+* pyautogui
+* pygetwindow
+* pytesseract
+* OpenCV
+* Pillow
+* MSS
+* AppOpener
+* JSON
 
 ---
 
-## 🚀 Getting Started
+## 📂 Project Structure
 
-### Clone the repository
-
-```bash
-git clone https://github.com/Tanmay-Yewale25/personal-AI-assistant.git
-cd personal-AI-assistant
-```
-
-### Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### Add your Gemini API Key
-
-Create a `.env` file:
-
-```env
-GEMINI_API_KEY=YOUR_API_KEY
-```
-
-### Run
-
-```bash
-python main.py
+```text
+Jarvis/
+│
+├── speech/
+├── vision/
+├── memory/
+├── agents/
+├── tools/
+├── rag/
+├── automation/
+├── api/
+├── ui/
+└── main.py
 ```
 
 ---
 
-## 📌 Future Enhancements
+## 🚀 Current Capabilities
 
-- Wake word detection
-- Memory support
-- Browser & desktop automation
-- Local LLM integration
-- Plugin ecosystem
+* Natural voice conversations
+* Execute desktop automation commands
+* Open, close, maximize, and minimize applications
+* Capture and analyze screenshots
+* Maintain conversation history
+* Generate AI-powered responses
+* Modular architecture for easy expansion
 
 ---
 
-## 👨‍💻 Developer
+## 🔮 Upcoming Features
 
-**Tanmay Yewale**
+* Long-term vector memory
+* Autonomous AI agents
+* Browser automation
+* Email assistant
+* Calendar integration
+* Local LLM support
+* Vision-based desktop control
+* Smart workflow automation
+* Plugin system
+* Cross-platform support
 
-AI & Data Science Engineering Student
+---
+
+## 🎯 Project Goal
+
+Build a production-ready AI desktop assistant capable of reasoning, understanding visual information, remembering conversations, and automating everyday computer tasks.
+
+---
+
+## ⚡ Why This Project?
+
+This project is more than a chatbot. It is an exploration of modern AI systems including:
+
+* Large Language Models (LLMs)
+* AI Agents
+* Retrieval-Augmented Generation (RAG)
+* Voice AI
+* Computer Vision
+* Desktop Automation
+* Human-Computer Interaction
+
+The long-term vision is to create an extensible AI assistant that can function as a personal productivity companion.
+
+---
+
+## 🤝 Contributions
+
+Contributions, feature requests, and suggestions are welcome. Feel free to open an issue or submit a pull request.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+### ⭐ If you found this project interesting, consider giving it a star!
+
 
 GitHub: **https://github.com/Tanmay-Yewale25**
 
